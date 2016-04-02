@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="app_install_count">
+        <item quantity="other">%1$s letöltés</item>
+        <item quantity="one">%1$s letöltés</item>
+    </plurals>
+    <plurals name="app_user_used">
+        <item quantity="other">%1$s felhasználó</item>
+        <item quantity="one">%1$s felhasználó</item>
+    </plurals>
+    <plurals name="match_brand_selection_des">
+        <item quantity="other">%d gyártó elérhető</item>
+        <item quantity="one">1 gyártó elérhető</item>
+    </plurals>
+    <plurals name="days_ago">
+        <item quantity="other">%1$d nappal ezelőtt</item>
+        <item quantity="zero">%1$d nappal ezelőtt</item>
+        <item quantity="one">%1$d napja</item>
+        <item quantity="two">%1$d nappal ezelőtt</item>
+        <item quantity="few">%1$d nappal ezelőtt</item>
+        <item quantity="many">%1$d nappal ezelőtt</item>
+    </plurals>
+    <plurals name="hours_ago">
+        <item quantity="other">%1$d órával ezelőtt</item>
+        <item quantity="zero">%1$d órával ezelőtt</item>
+        <item quantity="one">%1$d órával ezelőtt</item>
+        <item quantity="two">%1$d órával ezelőtt</item>
+        <item quantity="few">%1$d órával ezelőtt</item>
+        <item quantity="many">%1$d órával ezelőtt</item>
+    </plurals>
+    <plurals name="mins_ago">
+        <item quantity="other">%1$d perce</item>
+        <item quantity="zero">%1$d perce</item>
+        <item quantity="one">%1$d perce</item>
+        <item quantity="two">%1$d perce</item>
+        <item quantity="few">%1$d perce</item>
+        <item quantity="many">%1$d perce</item>
+    </plurals>
+</resources>

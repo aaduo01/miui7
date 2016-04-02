@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="ac_mode_array">
+        <item>Hűtés</item>
+        <item>Fűtés</item>
+        <item>Párátlanítás</item>
+        <item>Ventilátor</item>
+    </string-array>
+    <string-array name="epg_week_tab">
+        <item>Vasárnap</item>
+        <item>Hétfő</item>
+        <item>Kedd</item>
+        <item>Szerda</item>
+        <item>Csütörök</item>
+        <item>Péntek</item>
+        <item>Szombat</item>
+    </string-array>
+    <string-array name="question">
+        <item>Miért keresi a telefonom továbbra is a vezetéknélküli eszközöket?</item>
+        <item>Miért csak bekapcsolni tudom a klímát, kikapcsolni nem?</item>
+        <item>Használhatom a Mi3, Mi2 és Redmi telefonokat infra távirányítóként?</item>
+    </string-array>
+</resources>

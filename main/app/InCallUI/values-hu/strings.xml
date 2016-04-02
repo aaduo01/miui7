@@ -1,0 +1,710 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="modify_call_prompt_yes">Igen</string>
+    <string name="modify_call_prompt_no">Nem</string>
+    <string name="modify_call_failure_str">"Modify Call request failed\u000d
+"</string>
+    <string name="modify_call_option_title">Milyen típusú hívás?</string>
+    <string name="modify_call_option_vt">VT</string>
+    <string name="modify_call_option_vt_tx">Videó továbbítás</string>
+    <string name="modify_call_option_vt_rx">Videó fogadás</string>
+    <string name="modify_call_option_voice">Csak hanghívás</string>
+    <string name="accept_modify_call_request_prompt">Elfogadja a híváskérés módosítását?</string>
+    <string name="phone_info_divider">"  |  "</string>
+    <string name="antispam_marked_title">%1$s</string>
+    <string name="inCallLabel">InCallUI</string>
+    <string name="unknown">Ismeretlen</string>
+    <string name="private_num">Magántelefonszám</string>
+    <string name="payphone">Nyilvános telefon</string>
+    <string name="voicemail">Hangposta</string>
+    <string name="callFailed_userBusy">A vonal foglalt</string>
+    <string name="callFailed_congestion">A hálózat foglalt</string>
+    <string name="callFailed_timedOut">Nincs válasz, időtúllépés történt</string>
+    <string name="callFailed_server_unreachable">A szerver nem érhető el</string>
+    <string name="callFailed_number_unreachable">A szám nem érhető el</string>
+    <string name="callFailed_invalid_credentials">Helytelen felhasználónév vagy jelszó</string>
+    <string name="callFailed_out_of_network">A hívó hálózaton kívüli volt</string>
+    <string name="callFailed_server_error">Szerverhiba. Kérjük, próbálkozzon újra.</string>
+    <string name="callFailed_noSignal">Nincs vonal</string>
+    <string name="callFailed_limitExceeded">Elérte az ACM-korlátot</string>
+    <string name="callFailed_powerOff">Rádió kikapcsolva</string>
+    <string name="callFailed_simError">Hiányzó vagy hibás SIM-kártya</string>
+    <string name="callFailed_outOfService">Szolgáltatási területen kívüli terület</string>
+    <string name="callFailed_fdn_only">Az FDN korlátozza a kimenő hívásokat.</string>
+    <string name="callFailed_dialToUssd">DIAL request modified to USSD request.</string>
+    <string name="callFailed_dialToSs">DIAL request modified to SS request.</string>
+    <string name="callFailed_dialToDial">DIAL request modified to DIAL with different number.</string>
+    <string name="callFailed_cb_enabled">Nem indíthat hívást, amíg a híváskorlátozás be van kapcsolva.</string>
+    <string name="callFailed_incoming_cb_enabled">Party has barred all Incoming calls.</string>
+    <string name="callFailed_dsac_restricted">Minden hívás korlátozott a hozzáférés.</string>
+    <string name="callFailed_dsac_restricted_emergency">A segélyhívásokat korlátozza a hozzáférésvezérlés.</string>
+    <string name="callFailed_dsac_restricted_normal">A normál hívásokat korlátozza a hozzáférésvezérlés.</string>
+    <string name="callFailed_unobtainable_number">Érvénytelen szám</string>
+    <string name="incall_error_supp_service_unknown">Nem támogatott szolgáltatás</string>
+    <string name="incall_error_supp_service_switch">Nem lehet váltani a hívások között.</string>
+    <string name="incall_error_supp_service_separate">Nem lehet elkülöníteni a hívást.</string>
+    <string name="incall_error_supp_service_transfer">Nem lehet továbbítani a hívást.</string>
+    <string name="incall_error_supp_service_conference">Nem lehet konferenciahívást folytatni.</string>
+    <string name="incall_error_supp_service_reject">Nem lehet elutasítani a hívást.</string>
+    <string name="incall_error_supp_service_hangup">Nem lehet befejezni a hívás(oka)t.</string>
+    <string name="onscreen_add_call_text">Új hívás</string>
+    <string name="onscreen_audio_mode_bluetooth">Bluetooth</string>
+    <string name="onscreen_audio_mode_conference">Konferencia</string>
+    <string name="onscreen_audio_mode_handset">Kihangosító</string>
+    <string name="onscreen_audio_mode_headset">Fejhallgató</string>
+    <string name="onscreen_audio_mode_speaker">Hangszóró</string>
+    <string name="onscreen_audio_switch_mode">Hangszóróváltás</string>
+    <string name="onscreen_call_record">Rögzítés</string>
+    <string name="onscreen_hold_text">"Tartás "</string>
+    <string name="onscreen_merge_calls_text">Hívások egyesítése</string>
+    <string name="onscreen_mute_text">Némítás</string>
+    <string name="onscreen_swap_calls_text">Csere</string>
+    <string name="call_record_button_label">Felvétel %s</string>
+    <string name="call_record_wait_label">Várakozás</string>
+    <string name="contacts_icon_label">Névjegyek</string>
+    <string name="conference_call_number">%s személy</string>
+    <string name="conference_call_description" formatted="false">%s,%s stb. összesen %s</string>
+    <string name="conference_call_single_description" formatted="false">%s stb. összesen %s</string>
+    <string name="separate_from_conference">Egyéni hívások</string>
+    <string name="callUnanswered_forwarded">Nem fogadott hívás és Átirányítás</string>
+    <string name="caller_manage_header">%s konferenciahívás</string>
+    <string name="incall_call_type_label_sip">Internetes hívás</string>
+    <string name="incoming_call_forwarded_title">Forward incoming calls</string>
+    <string name="call_title_redialing_with_times">%d újrapróbálások száma</string>
+    <string name="card_title_dialing">Hívás</string>
+    <string name="card_title_conf_call">Konferenciahívás</string>
+    <string name="card_title_threeway_call">Háromutas hívás</string>
+    <string name="card_title_incoming_call">Bejövő hívás</string>
+    <string name="card_title_call_ended">"A hívás befejeződött "</string>
+    <string name="card_title_on_hold">"Tartásban "</string>
+    <string name="card_title_hanging_up">"Megszakítás "</string>
+    <string name="card_title_in_call">"Vonalban "</string>
+    <string name="card_title_in_call_short">"Vonalban "</string>
+    <string name="onscreenEndCallText">Vége</string>
+    <string name="calling_via_template">Hívás a következőn keresztül: %s</string>
+    <string name="contactPhoto">Névjegykép</string>
+    <string name="respond_via_sms_custom_message">Egyéni üzenet...</string>
+    <string name="manageConferenceLabel">Konferencia hívás beállítások</string>
+    <string name="emergency_call_dialog_number_for_display">Segélyhívó szám</string>
+    <string name="call_extension_conference_mode">Konferencia mód</string>
+    <string name="notification_dialing">Tárcsázás</string>
+    <string name="notification_ongoing_call">Bejövő hívás</string>
+    <string name="notification_on_hold">Tartásban</string>
+    <string name="notification_incoming_call">Bejövő hívás</string>
+    <string name="notification_action_accept">Fogadás</string>
+    <string name="notification_action_answer_video">Videó</string>
+    <string name="notification_action_answer_voice">Hang</string>
+    <string name="notification_action_dismiss">Elutasítás</string>
+    <string name="notification_action_end_call">Hívás befejezése</string>
+    <string name="notification_requesting_video_call">Bejövő videóhívás kérés</string>
+    <string name="add_vm_number_str">Szám hozzáadása</string>
+    <string name="no_vm_number">Hiányzik a hangposta száma</string>
+    <string name="no_vm_number_msg">Nincs hangpostaszám a SIM-kártyán.</string>
+    <string name="description_image_button_one">egy</string>
+    <string name="description_image_button_two">kettő</string>
+    <string name="description_image_button_three">három</string>
+    <string name="description_image_button_four">négy</string>
+    <string name="description_image_button_five">öt</string>
+    <string name="description_image_button_six">hat</string>
+    <string name="description_image_button_seven">hét</string>
+    <string name="description_image_button_eight">nyolc</string>
+    <string name="description_image_button_nine">kilenc</string>
+    <string name="description_image_button_star">csillag</string>
+    <string name="description_image_button_zero">nulla</string>
+    <string name="description_image_button_pound">kettős kereszt</string>
+    <string name="description_image_button_answer">Fogadáshoz húzza fel</string>
+    <string name="description_image_button_reject">Húzza fel az elutasításhoz</string>
+    <string name="description_image_button_message_enter">Üzenettel válaszoláshoz húzza fel</string>
+    <string name="description_image_button_message_exit">Üzenetek elrejtése</string>
+    <string name="description_image_button_hangup">Befejezés</string>
+    <string name="description_image_button_dialpad">Tárcsázó</string>
+    <string name="description_image_button_tools">Eszközök</string>
+    <string name="description_target_answer">Válasz</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Mégsem</string>
+    <string name="wait_prompt_str">"Elküldi a következő hangjelzéseket?\u000d
+"</string>
+    <string name="pause_prompt_yes">Igen</string>
+    <string name="pause_prompt_no">Nem</string>
+    <string name="waiting_close_airplane_mode">Egy pillanat…</string>
+    <string name="select_voice_call_sim">Válasszon SIM kártyát</string>
+    <string name="msim_select_default_time_left">(%d mp)</string>
+    <string name="select_sim_hint">Nem használható %2$d SIm kártya, amíg %1$d SIM kártya használatban van.</string>
+    <string name="call_description_recording">Rögzítés…</string>
+    <string name="call_recording_error_privacy">Nem készíthető felvétel Vendég üzemmódban</string>
+    <string name="call_recording_error_sd_access">Nem lehet hozzáférni az SD kártyához</string>
+    <string name="call_recording_error_sd_unmounted">A felvétel leállt: az SD kártya le lett választva</string>
+    <string name="call_recording_error_low_storage">Nincs elég szabad hely: az SD kártya megtelt</string>
+    <string name="call_recording_error_start_failed">A felvételt egy másik alkalmazás használja</string>
+    <string name="call_recording_error_unknown">Ismeretlen hiba történt</string>
+    <string name="call_recording_notification_title">A hívás rögzítve</string>
+    <string name="call_recording_notification_title_error">A hívás nem rögzíthető</string>
+    <string name="call_recording_notification_message">Visszahallgatás.</string>
+    <string name="call_recording_notification_message_low_storage">Az SD kártya megtelt.</string>
+    <string name="call_recording_notification_message_sd_unmounted">Az SD kártya el lett távolítva.</string>
+    <string name="call_recording_deny_permission_msg">Nem rögzíthető, felvétel rögzítése nincs engedélyezve.</string>
+    <string name="call_contacts_deny_permission_msg">Névjegyzék adatok nem láthatóak, a névjegyek olvasása nincs engedélyezve.</string>
+    <string name="antispam_marked_count">%1$d MIUI felhasználó jelentette</string>
+    <string name="antispam_provider">%s által azonosítva</string>
+    <string name="antispam_notification_title">Ismeretlen szám</string>
+    <string name="suspect_info">Ne fogadja a hívást,valószínűleg zaklatás!</string>
+    <string name="fraud_call_answer">Válasz</string>
+    <string name="fraud_call_decline">Decline</string>
+    <string name="fraud_call_waring">Be careful: You should always verify the identity of the contact first by phone or video before responding to any messages involving your personal information.</string>
+    <string name="online_check_provider_info">%s által azonosítva</string>
+    <string name="online_check_provider_name_by_cmb">China Merchants Bank</string>
+    <string name="online_check_warning_info_by_cmb">"Always verify the identity of the person you're speaking with by phone or video before responding to any messages involving your personal finances."</string>
+    <string name="online_check_warning_type_by_cmb">Spam</string>
+    <string name="ivr_menu_list_title">Hang menü</string>
+    <string name="ivr_menu_dialing_msg">Átirányítás…</string>
+    <string name="ivr_menu_dialing_msg_no_mute">Go to the selected service…[Automatic error correction is enabled]</string>
+    <string name="ivr_menu_list_sub_menu_count_format">Nyomja meg %s</string>
+    <string name="non_ivr_menu_view_menu">Nézet menü</string>
+    <string name="non_ivr_menu_collapse_menu">Bezárás menü</string>
+    <string name="livetalk_left_minute">%sperc van hátra</string>
+    <string name="livetalk_dial">Feltöltőcsomag használata</string>
+    <string name="areacode_set_default">Beállítás alapértelmezettként</string>
+    <string name="default_area_code_setting">Alapértelmezett régiókód</string>
+    <string name="not_activate_sim_card_content_title">A telefonszám nem ellenőrzött</string>
+    <string name="not_activate_sim_card_content">"Aktiválja a telefonszámát, hogy tudjon hívásokat indatani a Feltöltőcsomag használatával.  Normál hívások még ugyanúgy indíthatóak, melyekért a szolgáltató költséget számolhat fel."</string>
+    <string name="not_activate_sim_card_content_with_operator">Aktiválja %1$s SIM-kártyát(%2$s), hogy tudjon hívásokat indatani a Feltöltőcsomag használatával. Normál hívások még ugyanúgy indíthatóak, melyekért a szolgáltató költséget számolhat fel.</string>
+    <string name="dialog_call_ordinary_telephone">Normál hívás</string>
+    <string name="dialog_activate_livetalk">Szám ellenőrzése</string>
+    <string name="no_balance_title">Fedezethiány</string>
+    <string name="no_balance_message">Nincs fedezet a csomag feltöltéséhez.Próbálja meg a normál hívást.</string>
+    <string name="dialog_purchase">Feltöltés</string>
+    <string name="not_support_title">Ez a szám nem támogatott</string>
+    <string name="not_support_message">A feltöltőcsomag jelenleg nem támogatja ezeket a számokat. Próbálja meg a normál hívással.</string>
+    <string name="livetalk_hangup">Befejezés</string>
+    <string name="no_call_back_title">Figyelem</string>
+    <string name="no_call_back_message">Its taking too long to connect. Switching to regular call for which you might be charged by the carrier.</string>
+    <string name="keep_wait_call_back">Várakoztatás</string>
+    <string name="network_error_title">Instabil hálózat</string>
+    <string name="network_error_message">A jelenlegi hálózat instabil. Switching to regular call for which you might be charged by the carrier.</string>
+    <string name="do_not_ask">Ne jelenjen meg újra</string>
+    <string name="time_left_livetalk">(%dS)</string>
+    <string name="can_not_call_oneself">Nem tudja hívni ezt a számot</string>
+    <string name="jeejen_answer_call_text">Hívásfogadás</string>
+    <string name="jeejen_reject_call_text">Hívás elutasítása</string>
+    <string name="jeejen_end_call_text">Hívás befejezése</string>
+    <string name="jeejen_toggle_dialpad_text">Tárcsázó</string>
+    <string name="miprofile_stranger_card">Stranger card</string>
+    <string name="card_title_video_call_paused">Videó szüneteltetve</string>
+    <string name="card_title_incoming_conference_call">Bejövő konferenciahívás</string>
+    <string name="video_switch_to_voice_call_prompt">Átváltás hangívásra</string>
+    <string name="onscreen_change_to_voice">Hanghívás</string>
+    <string name="onscreen_change_to_video">Videóhívás</string>
+    <string name="onscreen_switch_camera">Kameraváltás</string>
+    <string name="card_title_video_call">Videóhvás</string>
+    <string name="card_title_upgrade_video_call_requesting">Videó kérés…</string>
+    <string name="card_title_upgrade_video_call_error">Nem frissíthető a videó</string>
+    <string name="card_title_upgrade_video_call_timed_out">Nem frissíthető a videó</string>
+    <string name="card_title_upgrade_video_call_rejected_by_remote">Nem frissíthető a videó</string>
+    <string name="notification_incoming_video_call">Bejövő videóhívás</string>
+    <string name="onscreen_rcs_text">Üzenetek</string>
+    <string name="onscreen_close_preview_camera">Kamera bezárása</string>
+    <string name="video_call_not_allowed_if_tty_enabled">Kapcsolja ki a TTY módot</string>
+    <string name="upgrade_vt_prompt">Would you like to upgrade the call to video call?</string>
+    <string name="conference_caller_name_me">Én</string>
+    <string name="incoming_answer_voice_text">Hangválasz</string>
+    <string name="picking_participant">Kapcsolat adatok lekérése…</string>
+    <string name="conference_caller_info_name">%1$s konferenciahívása</string>
+    <string name="call_self">Nem hívhatja saját számát</string>
+    <string name="dial_with_gsm_phone">Normál hívás</string>
+    <string name="purchase_now">Feltöltés</string>
+    <string name="cancel_call">Befejezés</string>
+    <item type="string" name="APKTOOL_DUMMY_00cf">false</item>
+    <item type="string" name="APKTOOL_DUMMY_00d0">false</item>
+    <item type="string" name="APKTOOL_DUMMY_00d1">false</item>
+    <item type="string" name="APKTOOL_DUMMY_00d2">false</item>
+    <item type="string" name="APKTOOL_DUMMY_00d3">false</item>
+    <item type="string" name="APKTOOL_DUMMY_00d4">false</item>
+    <item type="string" name="APKTOOL_DUMMY_00d5">false</item>
+    <item type="string" name="APKTOOL_DUMMY_00d6">false</item>
+    <item type="string" name="APKTOOL_DUMMY_00d7">false</item>
+    <item type="string" name="APKTOOL_DUMMY_00d8">false</item>
+    <item type="string" name="APKTOOL_DUMMY_00d9">false</item>
+    <item type="string" name="APKTOOL_DUMMY_00da">false</item>
+    <item type="string" name="APKTOOL_DUMMY_00db">false</item>
+    <item type="string" name="APKTOOL_DUMMY_00dc">false</item>
+    <item type="string" name="APKTOOL_DUMMY_00dd">false</item>
+    <item type="string" name="APKTOOL_DUMMY_00de">false</item>
+    <item type="string" name="APKTOOL_DUMMY_00df">false</item>
+    <item type="string" name="APKTOOL_DUMMY_00e0">false</item>
+    <item type="string" name="APKTOOL_DUMMY_00e1">false</item>
+    <item type="string" name="APKTOOL_DUMMY_00e2">false</item>
+    <item type="string" name="APKTOOL_DUMMY_00e3">false</item>
+    <item type="string" name="APKTOOL_DUMMY_00e4">false</item>
+    <item type="string" name="APKTOOL_DUMMY_00e5">false</item>
+    <item type="string" name="APKTOOL_DUMMY_00e6">false</item>
+    <item type="string" name="APKTOOL_DUMMY_00e7">false</item>
+    <item type="string" name="APKTOOL_DUMMY_00e8">false</item>
+    <item type="string" name="APKTOOL_DUMMY_00e9">false</item>
+    <item type="string" name="APKTOOL_DUMMY_00ea">false</item>
+    <item type="string" name="APKTOOL_DUMMY_00eb">false</item>
+    <item type="string" name="APKTOOL_DUMMY_00ec">false</item>
+    <item type="string" name="APKTOOL_DUMMY_00ed">false</item>
+    <item type="string" name="APKTOOL_DUMMY_00ee">false</item>
+    <item type="string" name="APKTOOL_DUMMY_00ef">false</item>
+    <item type="string" name="APKTOOL_DUMMY_00f0">false</item>
+    <item type="string" name="APKTOOL_DUMMY_00f1">false</item>
+    <item type="string" name="APKTOOL_DUMMY_00f2">false</item>
+    <item type="string" name="APKTOOL_DUMMY_00f3">false</item>
+    <item type="string" name="APKTOOL_DUMMY_00f4">false</item>
+    <item type="string" name="APKTOOL_DUMMY_00f5">false</item>
+    <item type="string" name="APKTOOL_DUMMY_00f6">false</item>
+    <item type="string" name="APKTOOL_DUMMY_00f7">false</item>
+    <item type="string" name="APKTOOL_DUMMY_00f8">false</item>
+    <item type="string" name="APKTOOL_DUMMY_00f9">false</item>
+    <item type="string" name="APKTOOL_DUMMY_00fa">false</item>
+    <item type="string" name="APKTOOL_DUMMY_00fb">false</item>
+    <item type="string" name="APKTOOL_DUMMY_00fc">false</item>
+    <item type="string" name="APKTOOL_DUMMY_00fd">false</item>
+    <item type="string" name="APKTOOL_DUMMY_00fe">false</item>
+    <item type="string" name="APKTOOL_DUMMY_00ff">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0100">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0101">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0102">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0103">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0104">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0105">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0106">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0107">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0108">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0109">false</item>
+    <item type="string" name="APKTOOL_DUMMY_010a">false</item>
+    <item type="string" name="APKTOOL_DUMMY_010b">false</item>
+    <item type="string" name="APKTOOL_DUMMY_010c">false</item>
+    <item type="string" name="APKTOOL_DUMMY_010d">false</item>
+    <item type="string" name="APKTOOL_DUMMY_010e">false</item>
+    <item type="string" name="APKTOOL_DUMMY_010f">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0110">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0111">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0112">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0113">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0114">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0115">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0116">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0117">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0118">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0119">false</item>
+    <item type="string" name="APKTOOL_DUMMY_011a">false</item>
+    <item type="string" name="APKTOOL_DUMMY_011b">false</item>
+    <item type="string" name="APKTOOL_DUMMY_011c">false</item>
+    <item type="string" name="APKTOOL_DUMMY_011d">false</item>
+    <item type="string" name="APKTOOL_DUMMY_011e">false</item>
+    <item type="string" name="APKTOOL_DUMMY_011f">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0120">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0121">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0122">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0123">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0124">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0125">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0126">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0127">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0128">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0129">false</item>
+    <item type="string" name="APKTOOL_DUMMY_012a">false</item>
+    <item type="string" name="APKTOOL_DUMMY_012b">false</item>
+    <item type="string" name="APKTOOL_DUMMY_012c">false</item>
+    <item type="string" name="APKTOOL_DUMMY_012d">false</item>
+    <item type="string" name="APKTOOL_DUMMY_012e">false</item>
+    <item type="string" name="APKTOOL_DUMMY_012f">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0130">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0131">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0132">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0133">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0134">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0135">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0136">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0137">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0138">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0139">false</item>
+    <item type="string" name="APKTOOL_DUMMY_013a">false</item>
+    <item type="string" name="APKTOOL_DUMMY_013b">false</item>
+    <item type="string" name="APKTOOL_DUMMY_013c">false</item>
+    <item type="string" name="APKTOOL_DUMMY_013d">false</item>
+    <item type="string" name="APKTOOL_DUMMY_013e">false</item>
+    <item type="string" name="APKTOOL_DUMMY_013f">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0140">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0141">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0142">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0143">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0144">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0145">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0146">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0147">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0148">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0149">false</item>
+    <item type="string" name="APKTOOL_DUMMY_014a">false</item>
+    <item type="string" name="APKTOOL_DUMMY_014b">false</item>
+    <item type="string" name="APKTOOL_DUMMY_014c">false</item>
+    <item type="string" name="APKTOOL_DUMMY_014d">false</item>
+    <item type="string" name="APKTOOL_DUMMY_014e">false</item>
+    <item type="string" name="APKTOOL_DUMMY_014f">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0150">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0151">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0152">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0153">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0154">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0155">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0156">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0157">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0158">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0159">false</item>
+    <item type="string" name="APKTOOL_DUMMY_015a">false</item>
+    <item type="string" name="APKTOOL_DUMMY_015b">false</item>
+    <item type="string" name="APKTOOL_DUMMY_015c">false</item>
+    <item type="string" name="APKTOOL_DUMMY_015d">false</item>
+    <item type="string" name="APKTOOL_DUMMY_015e">false</item>
+    <item type="string" name="APKTOOL_DUMMY_015f">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0160">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0161">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0162">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0163">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0164">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0165">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0166">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0167">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0168">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0169">false</item>
+    <item type="string" name="APKTOOL_DUMMY_016a">false</item>
+    <item type="string" name="APKTOOL_DUMMY_016b">false</item>
+    <item type="string" name="APKTOOL_DUMMY_016c">false</item>
+    <item type="string" name="APKTOOL_DUMMY_016d">false</item>
+    <item type="string" name="APKTOOL_DUMMY_016e">false</item>
+    <item type="string" name="APKTOOL_DUMMY_016f">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0170">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0171">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0172">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0173">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0174">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0175">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0176">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0177">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0178">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0179">false</item>
+    <item type="string" name="APKTOOL_DUMMY_017a">false</item>
+    <item type="string" name="APKTOOL_DUMMY_017b">false</item>
+    <item type="string" name="APKTOOL_DUMMY_017c">false</item>
+    <item type="string" name="APKTOOL_DUMMY_017d">false</item>
+    <item type="string" name="APKTOOL_DUMMY_017e">false</item>
+    <item type="string" name="APKTOOL_DUMMY_017f">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0180">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0181">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0182">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0183">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0184">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0185">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0186">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0187">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0188">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0189">false</item>
+    <item type="string" name="APKTOOL_DUMMY_018a">false</item>
+    <item type="string" name="APKTOOL_DUMMY_018b">false</item>
+    <item type="string" name="APKTOOL_DUMMY_018c">false</item>
+    <item type="string" name="APKTOOL_DUMMY_018d">false</item>
+    <item type="string" name="APKTOOL_DUMMY_018e">false</item>
+    <item type="string" name="APKTOOL_DUMMY_018f">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0190">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0191">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0192">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0193">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0194">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0195">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0196">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0197">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0198">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0199">false</item>
+    <item type="string" name="APKTOOL_DUMMY_019a">false</item>
+    <item type="string" name="APKTOOL_DUMMY_019b">false</item>
+    <item type="string" name="APKTOOL_DUMMY_019c">false</item>
+    <item type="string" name="APKTOOL_DUMMY_019d">false</item>
+    <item type="string" name="APKTOOL_DUMMY_019e">false</item>
+    <item type="string" name="APKTOOL_DUMMY_019f">false</item>
+    <item type="string" name="APKTOOL_DUMMY_01a0">false</item>
+    <item type="string" name="APKTOOL_DUMMY_01a1">false</item>
+    <item type="string" name="APKTOOL_DUMMY_01a2">false</item>
+    <item type="string" name="APKTOOL_DUMMY_01a3">false</item>
+    <item type="string" name="APKTOOL_DUMMY_01a4">false</item>
+    <item type="string" name="APKTOOL_DUMMY_01a5">false</item>
+    <item type="string" name="APKTOOL_DUMMY_01a6">false</item>
+    <item type="string" name="APKTOOL_DUMMY_01a7">false</item>
+    <item type="string" name="APKTOOL_DUMMY_01a8">false</item>
+    <item type="string" name="APKTOOL_DUMMY_01a9">false</item>
+    <item type="string" name="APKTOOL_DUMMY_01aa">false</item>
+    <item type="string" name="APKTOOL_DUMMY_01ab">false</item>
+    <item type="string" name="APKTOOL_DUMMY_01ac">false</item>
+    <item type="string" name="APKTOOL_DUMMY_01ad">false</item>
+    <item type="string" name="APKTOOL_DUMMY_01ae">false</item>
+    <item type="string" name="APKTOOL_DUMMY_01af">false</item>
+    <item type="string" name="APKTOOL_DUMMY_01b0">false</item>
+    <item type="string" name="APKTOOL_DUMMY_01b1">false</item>
+    <item type="string" name="APKTOOL_DUMMY_01b2">false</item>
+    <item type="string" name="APKTOOL_DUMMY_01b3">false</item>
+    <item type="string" name="APKTOOL_DUMMY_01b4">false</item>
+    <item type="string" name="APKTOOL_DUMMY_01b5">false</item>
+    <item type="string" name="APKTOOL_DUMMY_01b6">false</item>
+    <item type="string" name="APKTOOL_DUMMY_01b7">false</item>
+    <item type="string" name="APKTOOL_DUMMY_01b8">false</item>
+    <item type="string" name="APKTOOL_DUMMY_01b9">false</item>
+    <item type="string" name="APKTOOL_DUMMY_01ba">false</item>
+    <item type="string" name="APKTOOL_DUMMY_01bb">false</item>
+    <item type="string" name="APKTOOL_DUMMY_01bc">false</item>
+    <item type="string" name="APKTOOL_DUMMY_01bd">false</item>
+    <item type="string" name="APKTOOL_DUMMY_01be">false</item>
+    <item type="string" name="APKTOOL_DUMMY_01bf">false</item>
+    <item type="string" name="APKTOOL_DUMMY_01c0">false</item>
+    <item type="string" name="APKTOOL_DUMMY_01c1">false</item>
+    <item type="string" name="APKTOOL_DUMMY_01c2">false</item>
+    <item type="string" name="APKTOOL_DUMMY_01c3">false</item>
+    <item type="string" name="APKTOOL_DUMMY_01c4">false</item>
+    <item type="string" name="APKTOOL_DUMMY_01c5">false</item>
+    <item type="string" name="APKTOOL_DUMMY_01c6">false</item>
+    <item type="string" name="APKTOOL_DUMMY_01c7">false</item>
+    <item type="string" name="APKTOOL_DUMMY_01c8">false</item>
+    <item type="string" name="APKTOOL_DUMMY_01c9">false</item>
+    <item type="string" name="APKTOOL_DUMMY_01ca">false</item>
+    <item type="string" name="APKTOOL_DUMMY_01cb">false</item>
+    <item type="string" name="APKTOOL_DUMMY_01cc">false</item>
+    <item type="string" name="APKTOOL_DUMMY_01cd">false</item>
+    <item type="string" name="APKTOOL_DUMMY_01ce">false</item>
+    <item type="string" name="APKTOOL_DUMMY_01cf">false</item>
+    <item type="string" name="APKTOOL_DUMMY_01d0">false</item>
+    <item type="string" name="APKTOOL_DUMMY_01d1">false</item>
+    <item type="string" name="APKTOOL_DUMMY_01d2">false</item>
+    <item type="string" name="APKTOOL_DUMMY_01d3">false</item>
+    <item type="string" name="APKTOOL_DUMMY_01d4">false</item>
+    <item type="string" name="APKTOOL_DUMMY_01d5">false</item>
+    <item type="string" name="APKTOOL_DUMMY_01d6">false</item>
+    <item type="string" name="APKTOOL_DUMMY_01d7">false</item>
+    <item type="string" name="APKTOOL_DUMMY_01d8">false</item>
+    <item type="string" name="APKTOOL_DUMMY_01d9">false</item>
+    <item type="string" name="APKTOOL_DUMMY_01da">false</item>
+    <item type="string" name="APKTOOL_DUMMY_01db">false</item>
+    <item type="string" name="APKTOOL_DUMMY_01dc">false</item>
+    <item type="string" name="APKTOOL_DUMMY_01dd">false</item>
+    <item type="string" name="APKTOOL_DUMMY_01de">false</item>
+    <item type="string" name="APKTOOL_DUMMY_01df">false</item>
+    <item type="string" name="APKTOOL_DUMMY_01e0">false</item>
+    <item type="string" name="APKTOOL_DUMMY_01e1">false</item>
+    <item type="string" name="APKTOOL_DUMMY_01e2">false</item>
+    <item type="string" name="APKTOOL_DUMMY_01e3">false</item>
+    <item type="string" name="APKTOOL_DUMMY_01e4">false</item>
+    <item type="string" name="APKTOOL_DUMMY_01e5">false</item>
+    <item type="string" name="APKTOOL_DUMMY_01e6">false</item>
+    <item type="string" name="APKTOOL_DUMMY_01e7">false</item>
+    <item type="string" name="APKTOOL_DUMMY_01e8">false</item>
+    <item type="string" name="APKTOOL_DUMMY_01e9">false</item>
+    <item type="string" name="APKTOOL_DUMMY_01ea">false</item>
+    <item type="string" name="APKTOOL_DUMMY_01eb">false</item>
+    <item type="string" name="APKTOOL_DUMMY_01ec">false</item>
+    <item type="string" name="APKTOOL_DUMMY_01ed">false</item>
+    <item type="string" name="APKTOOL_DUMMY_01ee">false</item>
+    <item type="string" name="APKTOOL_DUMMY_01ef">false</item>
+    <item type="string" name="APKTOOL_DUMMY_01f0">false</item>
+    <item type="string" name="APKTOOL_DUMMY_01f1">false</item>
+    <item type="string" name="APKTOOL_DUMMY_01f2">false</item>
+    <item type="string" name="APKTOOL_DUMMY_01f3">false</item>
+    <item type="string" name="APKTOOL_DUMMY_01f4">false</item>
+    <item type="string" name="APKTOOL_DUMMY_01f5">false</item>
+    <item type="string" name="APKTOOL_DUMMY_01f6">false</item>
+    <item type="string" name="APKTOOL_DUMMY_01f7">false</item>
+    <item type="string" name="APKTOOL_DUMMY_01f8">false</item>
+    <item type="string" name="APKTOOL_DUMMY_01f9">false</item>
+    <item type="string" name="APKTOOL_DUMMY_01fa">false</item>
+    <item type="string" name="APKTOOL_DUMMY_01fb">false</item>
+    <item type="string" name="APKTOOL_DUMMY_01fc">false</item>
+    <item type="string" name="APKTOOL_DUMMY_01fd">false</item>
+    <item type="string" name="APKTOOL_DUMMY_01fe">false</item>
+    <item type="string" name="APKTOOL_DUMMY_01ff">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0200">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0201">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0202">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0203">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0204">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0205">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0206">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0207">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0208">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0209">false</item>
+    <item type="string" name="APKTOOL_DUMMY_020a">false</item>
+    <item type="string" name="APKTOOL_DUMMY_020b">false</item>
+    <item type="string" name="APKTOOL_DUMMY_020c">false</item>
+    <item type="string" name="APKTOOL_DUMMY_020d">false</item>
+    <item type="string" name="APKTOOL_DUMMY_020e">false</item>
+    <item type="string" name="APKTOOL_DUMMY_020f">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0210">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0211">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0212">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0213">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0214">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0215">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0216">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0217">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0218">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0219">false</item>
+    <item type="string" name="APKTOOL_DUMMY_021a">false</item>
+    <item type="string" name="APKTOOL_DUMMY_021b">false</item>
+    <item type="string" name="APKTOOL_DUMMY_021c">false</item>
+    <item type="string" name="APKTOOL_DUMMY_021d">false</item>
+    <item type="string" name="APKTOOL_DUMMY_021e">false</item>
+    <item type="string" name="APKTOOL_DUMMY_021f">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0220">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0221">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0222">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0223">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0224">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0225">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0226">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0227">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0228">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0229">false</item>
+    <item type="string" name="APKTOOL_DUMMY_022a">false</item>
+    <item type="string" name="APKTOOL_DUMMY_022b">false</item>
+    <item type="string" name="APKTOOL_DUMMY_022c">false</item>
+    <item type="string" name="APKTOOL_DUMMY_022d">false</item>
+    <item type="string" name="APKTOOL_DUMMY_022e">false</item>
+    <item type="string" name="APKTOOL_DUMMY_022f">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0230">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0231">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0232">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0233">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0234">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0235">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0236">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0237">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0238">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0239">false</item>
+    <item type="string" name="APKTOOL_DUMMY_023a">false</item>
+    <item type="string" name="APKTOOL_DUMMY_023b">false</item>
+    <item type="string" name="APKTOOL_DUMMY_023c">false</item>
+    <item type="string" name="APKTOOL_DUMMY_023d">false</item>
+    <item type="string" name="APKTOOL_DUMMY_023e">false</item>
+    <item type="string" name="APKTOOL_DUMMY_023f">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0240">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0241">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0242">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0243">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0244">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0245">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0246">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0247">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0248">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0249">false</item>
+    <item type="string" name="APKTOOL_DUMMY_024a">false</item>
+    <item type="string" name="APKTOOL_DUMMY_024b">false</item>
+    <item type="string" name="APKTOOL_DUMMY_024c">false</item>
+    <item type="string" name="APKTOOL_DUMMY_024d">false</item>
+    <item type="string" name="APKTOOL_DUMMY_024e">false</item>
+    <item type="string" name="APKTOOL_DUMMY_024f">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0250">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0251">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0252">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0253">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0254">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0255">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0256">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0257">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0258">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0259">false</item>
+    <item type="string" name="APKTOOL_DUMMY_025a">false</item>
+    <item type="string" name="APKTOOL_DUMMY_025b">false</item>
+    <item type="string" name="APKTOOL_DUMMY_025c">false</item>
+    <item type="string" name="APKTOOL_DUMMY_025d">false</item>
+    <item type="string" name="APKTOOL_DUMMY_025e">false</item>
+    <item type="string" name="APKTOOL_DUMMY_025f">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0260">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0261">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0262">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0263">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0264">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0265">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0266">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0267">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0268">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0269">false</item>
+    <item type="string" name="APKTOOL_DUMMY_026a">false</item>
+    <item type="string" name="APKTOOL_DUMMY_026b">false</item>
+    <item type="string" name="APKTOOL_DUMMY_026c">false</item>
+    <item type="string" name="APKTOOL_DUMMY_026d">false</item>
+    <item type="string" name="APKTOOL_DUMMY_026e">false</item>
+    <item type="string" name="APKTOOL_DUMMY_026f">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0270">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0271">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0272">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0273">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0274">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0275">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0276">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0277">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0278">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0279">false</item>
+    <item type="string" name="APKTOOL_DUMMY_027a">false</item>
+    <item type="string" name="APKTOOL_DUMMY_027b">false</item>
+    <item type="string" name="APKTOOL_DUMMY_027c">false</item>
+    <item type="string" name="APKTOOL_DUMMY_027d">false</item>
+    <item type="string" name="APKTOOL_DUMMY_027e">false</item>
+    <item type="string" name="APKTOOL_DUMMY_027f">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0280">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0281">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0282">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0283">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0284">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0285">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0286">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0287">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0288">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0289">false</item>
+    <item type="string" name="APKTOOL_DUMMY_028a">false</item>
+    <item type="string" name="APKTOOL_DUMMY_028b">false</item>
+    <item type="string" name="APKTOOL_DUMMY_028c">false</item>
+    <item type="string" name="APKTOOL_DUMMY_028d">false</item>
+    <item type="string" name="APKTOOL_DUMMY_028e">false</item>
+    <item type="string" name="APKTOOL_DUMMY_028f">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0290">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0291">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0292">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0293">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0294">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0295">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0296">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0297">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0298">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0299">false</item>
+    <item type="string" name="APKTOOL_DUMMY_029a">false</item>
+    <item type="string" name="APKTOOL_DUMMY_029b">false</item>
+    <item type="string" name="APKTOOL_DUMMY_029c">false</item>
+    <item type="string" name="APKTOOL_DUMMY_029d">false</item>
+    <item type="string" name="APKTOOL_DUMMY_029e">false</item>
+    <item type="string" name="APKTOOL_DUMMY_029f">false</item>
+    <item type="string" name="APKTOOL_DUMMY_02a0">false</item>
+    <item type="string" name="APKTOOL_DUMMY_02a1">false</item>
+    <item type="string" name="APKTOOL_DUMMY_02a2">false</item>
+    <item type="string" name="APKTOOL_DUMMY_02a3">false</item>
+    <item type="string" name="APKTOOL_DUMMY_02a4">false</item>
+    <item type="string" name="APKTOOL_DUMMY_02a5">false</item>
+    <item type="string" name="APKTOOL_DUMMY_02a6">false</item>
+    <item type="string" name="APKTOOL_DUMMY_02a7">false</item>
+    <item type="string" name="APKTOOL_DUMMY_02a8">false</item>
+    <item type="string" name="APKTOOL_DUMMY_02a9">false</item>
+    <item type="string" name="APKTOOL_DUMMY_02aa">false</item>
+    <item type="string" name="APKTOOL_DUMMY_02ab">false</item>
+    <item type="string" name="APKTOOL_DUMMY_02ac">false</item>
+    <item type="string" name="APKTOOL_DUMMY_02ad">false</item>
+    <item type="string" name="APKTOOL_DUMMY_02ae">false</item>
+    <item type="string" name="APKTOOL_DUMMY_02af">false</item>
+    <item type="string" name="APKTOOL_DUMMY_02b0">false</item>
+    <item type="string" name="APKTOOL_DUMMY_02b1">false</item>
+    <item type="string" name="APKTOOL_DUMMY_02b2">false</item>
+    <item type="string" name="APKTOOL_DUMMY_02b3">false</item>
+    <item type="string" name="APKTOOL_DUMMY_02b4">false</item>
+    <item type="string" name="APKTOOL_DUMMY_02b5">false</item>
+    <item type="string" name="APKTOOL_DUMMY_02b6">false</item>
+    <item type="string" name="APKTOOL_DUMMY_02b7">false</item>
+    <item type="string" name="APKTOOL_DUMMY_02b8">false</item>
+    <item type="string" name="APKTOOL_DUMMY_02b9">false</item>
+    <item type="string" name="APKTOOL_DUMMY_02ba">false</item>
+    <item type="string" name="APKTOOL_DUMMY_02bb">false</item>
+    <item type="string" name="APKTOOL_DUMMY_02bc">false</item>
+</resources>
